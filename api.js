@@ -1,8 +1,7 @@
 const axios = require('axios');
 
-// إعدادات
 const API_BASE_URL = 'http://node.tokyots.xyz:2012'; 
-const API_KEY = 'apibytokyo'; // ممنوع التغير
+const API_KEY = 'apibytokyo'; //  لتصير لوتي وتغيره 
 
 
 async function downloadTikTokVideo(query) {
